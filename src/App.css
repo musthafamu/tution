@@ -1,0 +1,27 @@
+body{
+  overflow-x: hidden;
+   background: linear-gradient(90deg,#374151,#111827,#000);
+  ;
+}
+.text{
+  white-space: wrap;
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+  *{
+    scroll-behavior: smooth;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+  
